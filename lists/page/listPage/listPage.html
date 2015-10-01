@@ -1,5 +1,6 @@
 <div class="col-md-12" ng-controller="ListPageCtrl">
-{{answer}}
-fasdf
+    <list-dir title="shoppingListTitle" list="shoppingList"></list-dir>
+    <input ng-model="item">
+    <button ng-click="updateShoppingList(item)">Add</button>
 </div>
 
