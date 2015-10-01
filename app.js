@@ -3,7 +3,7 @@ angular.module('simpleAngularApp', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ng
 angular.module('simpleAngularApp').config(function($stateProvider, $urlRouterProvider) {
 
     /* Add New States Above */
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/lists');
 
 });
 
